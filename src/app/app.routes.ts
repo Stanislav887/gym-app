@@ -22,4 +22,20 @@ export const routes: Routes = [
     path: 'muscles',
     loadComponent: () => import('./muscles/muscles.page').then( m => m.MusclesPage)
   },
+  {
+    path: 'chest',
+    loadComponent: () => import('./chest/chest.page').then( m => m.ChestPage)
+  },
+  {
+    path: 'legs',
+    loadComponent: () => import('./legs/legs.page').then( m => m.LegsPage)
+  },
+  {
+    path: 'arms',
+    loadComponent: () => import('./arms/arms.page').then( m => m.ArmsPage)
+  },
+  {
+    path: 'back',
+    loadComponent: () => import('./back/back.page').then( m => m.BackPage)
+  },
 ];
