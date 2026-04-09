@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Bench Press",
+    "muscle": "chest"
+  },
+  {
+    "id": 2,
+    "name": "Squats",
+    "muscle": "legs"
+  },
+  {
+    "id": 3,
+    "name": "Bicep Curls",
+    "muscle": "arms"
+  },
+  {
+    "id": 4,
+    "name": "Deadlift",
+    "muscle": "back"
+  }
+]
