@@ -8,9 +8,9 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">exercises</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-card *ngFor="let e of exercises">
+    <ion-card-header>
+      <ion-card-title>{{ e.name }}</ion-card-title>
+    </ion-card-header>
+  </ion-card>
 </ion-content>
